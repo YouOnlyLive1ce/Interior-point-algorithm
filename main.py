@@ -120,7 +120,7 @@ def get_user_input():
                 flag = True
                 break
         if not flag:
-            print("The method is not applicable")
+            print("The problem does not have solution!")
             exit(0)
 
     for i in b:
@@ -176,6 +176,8 @@ def get_pivot_position(table):
             break
 
     restrictions = []
+
+
     for i in range(len(table) - 1):
         if table[i][column_i] <= 0:
             restrictions.append(math.inf)
