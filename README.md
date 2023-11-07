@@ -48,14 +48,26 @@ Example:
 
 Example for "Method is not applicable":
 ```bash
-2 3
-1 1
--1 1
--1 0
--1 1
-2 4 4
-0
+3 2
+20 -10 0 0
+2 1
+-4 5
+1 0
+0 1
+1
 ```
+
+Example for Problem does not have solution:
+```bash
+3 2
+20 10 0 0
+2 1
+-4 -5
+1 0
+0 1
+1
+```
+
 
 The script will output lines:
 ```bash
